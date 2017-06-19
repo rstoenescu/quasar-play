@@ -90,8 +90,7 @@ import {
   QCard,
   QCardMain,
   QCardActions,
-  QCardSeparator,
-  QTooltip
+  QCardSeparator
 } from 'quasar'
 
 // Don't forget to import the animations you are using
@@ -106,8 +105,7 @@ export default {
     QCard,
     QCardMain,
     QCardActions,
-    QCardSeparator,
-    QTooltip
+    QCardSeparator
   },
   data () {
     return {
