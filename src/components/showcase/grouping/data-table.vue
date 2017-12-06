@@ -206,10 +206,10 @@ export default {
         },
         rowHeight: '50px',
         responsive: true,
-        pagination: {
-          rowsPerPage: 15,
-          options: [5, 10, 15, 30, 50, 500]
-        },
+        pagination: [
+          {rowsPerPage: 15},
+          {options: [5, 10, 15, 30, 50, 500]}
+        ],
         selection: 'multiple'
       },
       columns: [
