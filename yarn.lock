@@ -5113,9 +5113,9 @@ qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-quasar-cli@^0.15.0-beta.14:
-  version "0.15.0-beta.15"
-  resolved "https://registry.yarnpkg.com/quasar-cli/-/quasar-cli-0.15.0-beta.15.tgz#248543822892891a36f11e5044c67693d6f73ddf"
+quasar-cli@^0.15.0-beta.17:
+  version "0.15.0-beta.17"
+  resolved "https://registry.yarnpkg.com/quasar-cli/-/quasar-cli-0.15.0-beta.17.tgz#0eaf2b409d70fa8e97fddda67c9cdea86d042f22"
   dependencies:
     babel-core "6.26.0"
     babel-eslint "8.1.2"
@@ -5161,7 +5161,7 @@ quasar-cli@^0.15.0-beta.14:
     postcss-loader "2.0.10"
     progress-bar-webpack-plugin "1.10.0"
     quasar-extras "1.0.2"
-    quasar-framework "^0.15.0-alpha.6"
+    quasar-framework "0.15.0-alpha.6"
     stylus "0.54.5"
     stylus-loader "3.0.1"
     sw-precache-webpack-plugin "0.11.4"
@@ -5184,9 +5184,9 @@ quasar-extras@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/quasar-extras/-/quasar-extras-1.0.2.tgz#cb5760c7cce4af21144d48d49776e6bf8790cc6e"
 
-quasar-framework@^0.15.0-alpha.6:
-  version "0.15.0-alpha1"
-  resolved "https://registry.yarnpkg.com/quasar-framework/-/quasar-framework-0.15.0-alpha1.tgz#5ab13a63193d453c4d1b31c4063b1e04bb5b3ee7"
+quasar-framework@0.15.0-alpha.6:
+  version "0.15.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/quasar-framework/-/quasar-framework-0.15.0-alpha.6.tgz#60ba8b01f426f9ade68489c9b029b7ee4db043ac"
 
 query-string@^4.1.0:
   version "4.3.4"
