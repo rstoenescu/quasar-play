@@ -98,7 +98,7 @@ export default {
     showActionSheetWithIcons (grid) {
       this.$q.actionSheet({
         title: 'Article Actions',
-        grid: grid,
+        grid,
         actions: [
           {
             label: 'Delete',
@@ -145,7 +145,7 @@ export default {
     showActionSheetWithAvatar (grid) {
       this.$q.actionSheet({
         title: 'Share to',
-        grid: grid,
+        grid,
         actions: [
           {
             label: 'Joe',
