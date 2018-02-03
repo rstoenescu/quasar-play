@@ -59,6 +59,11 @@ export default [
         title: 'Shadows',
         icon: 'layers',
         hash: 'shadows'
+      },
+      {
+        title: 'Spacing',
+        icon: 'settings_overscan',
+        hash: 'spacing'
       }
     ]
   },
