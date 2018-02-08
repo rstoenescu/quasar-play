@@ -2,8 +2,9 @@
   <q-page padding class="docs-btn row justify-center">
     <div style="width: 500px; max-width: 90vw;">
       <p class="caption">Standard Button</p>
-      <q-btn color="white" text-color="black" label="Standard" />
-      <q-btn color="primary" label="Primary" />
+      <q-btn label="label" fab/>
+      <q-btn color="white" text-color="black" label="Standard"/>
+      <q-btn color="primary" label="Primary"/>
       <q-btn color="secondary" label="Secondary" />
       <q-btn color="amber" label="Amber" />
       <q-btn color="brown-5" label="Brown 5" />
@@ -166,8 +167,14 @@
       <p class="caption">Button with timeout (keep pressing more than one second)</p>
       <q-btn
         :label="`Count ${count}`"
-        @click="count++"
         :repeat-timeout="1000"
+        @click="count++"
+        color="primary"
+      />
+      <q-btn
+        :label="`Accelerate ${count2}`"
+        :repeat-timeout="c => 1000 / ++c"
+        @click="count2++"
         color="primary"
       />
 
@@ -231,6 +238,7 @@ export default {
   data () {
     return {
       count: 0,
+      count2: 0,
       progress: false,
       percentage1: 0,
       percentage2: 0,
